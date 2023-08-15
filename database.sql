@@ -1,0 +1,12 @@
+CREATE DATABASE HC;
+
+USE HC;
+
+CREATE TABLE nacimientos(
+id_padron INT NOT NULL AUTO_INCREMENT,
+sexo VARCHAR(30) NOT NULL,
+nombre VARCHAR(30) NOT NULL,
+apellido VARCHAR(30) NOT NULL,
+peso FLOAT,
+PRIMARY KEY (id_padron)
+);
